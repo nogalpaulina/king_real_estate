@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>King Real Estate</title>
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="header">
+			<h1>King Real Estate</h1>
+			<h2>Where The Customer Is King</h2>
+		</div>
+
+		<div class="container">
+			<h3>Please sing up on our guest list and a representative will contact you soon.</h3>
+			<br><br>
+
+			<form method="post" action="king_real_estate.php">
+				<p>
+				<label for="firstname">First Name:<br /></label>
+				<input type="text" id="firstname" name="firstname">
+				</p>
+
+				<p>
+				<label for="lastname">Last Name:<br /></label>
+				<input type="text" id="lastname" name="lastname">
+				</p>
+
+				<p>
+				<label for="firstname">Contact Information:<br/></label>
+				<input type="radio" name="contact" value="Phone" checked="checked"> Phone
+				<input type="radio" name="contact" value="Email"> Email <br />
+				<input type="text" id="phoneoremail" name="phoneoremail">
+				</p>
+
+				<p>
+				<label for="firstname">City Where You Want to Reside:<br /></label>
+				<select name="city" size="1">
+					<option value="-">-</option>
+					<option value="Providence">Providence</option>
+					<option value="Newport">Newport</option>
+					<option value="Jamestown">Jamestown</option>
+					<option value="Boston">Boston</option>
+				</select>
+				</p>
+
+				<p>
+				<label for="firstname">Comments:<br /><br/></label>
+				<textarea name="comments"></textarea>
+				</p>
+
+				<p>
+				<input type="submit" value="Submit Information">
+				</p>
+			</form>
+			<hr style="border: 1px solid #7C2803;" />
+		</div>
+		<div id="footer">All Rights Reserved  ||  NOGAL 2015</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>

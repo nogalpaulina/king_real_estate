@@ -1,0 +1,50 @@
+#wrapper {
+	background-color: #EBE9E8;
+}
+
+.header {
+	background-image: url("../img/cloudes.jpg");
+	background-size: 100% auto;
+  	background-repeat: no-repeat;
+  	margin-top: 0px;
+  	padding-top: 20px;
+  	padding-bottom: 60px;
+}
+
+.header h1 {
+	font-size: 80px;
+	color: #7C2803;
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+}
+
+.header h2 {
+	font-size: 44px;
+	color: #7C2803;
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+}
+
+.container {
+	margin-top: 32px;
+	padding-top: 20px;
+	background-color: #EBE9E8;
+	font-family: 'Poiret One', cursive;
+	font-size: 20px;
+	color: #7C2803;
+	font-size: 22px;
+}
+
+.container h3{
+	font-size: 44px;
+}
+
+
+#footer {
+	height: 60px;
+	background-color: #EBE9E8;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	color: #7C2803;
+	font-size: 22px;
+}
